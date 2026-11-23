@@ -1,0 +1,28 @@
+{
+  "name": "task-6",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html -p 3000",
+    "dev": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortuursed/task-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mortuursed/task-6/issues"
+  },
+  "homepage": "https://mortuursed.github.io/task-6/",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.16.4"
+  }
+}
